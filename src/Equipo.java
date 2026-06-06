@@ -4,6 +4,7 @@ public class Equipo {
     private String pais;
     private int copas;
 
+    // Constructor para crear el equipo con sus 3 datos
     public Equipo() {
     }
 
@@ -13,6 +14,7 @@ public class Equipo {
         this.copas = copas;
     }
 
+    // Métodos para que Ejemplo2LinkedList pueda leer los datos
     public String getNombre() {
         return nombre;
     }
