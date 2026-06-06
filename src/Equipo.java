@@ -1,9 +1,13 @@
 public class Equipo {
+
     private String nombre;
     private String pais;
     private int copas;
 
     // Constructor para crear el equipo con sus 3 datos
+    public Equipo() {
+    }
+
     public Equipo(String nombre, String pais, int copas) {
         this.nombre = nombre;
         this.pais = pais;
